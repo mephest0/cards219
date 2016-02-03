@@ -73,7 +73,7 @@ public class MainActivity extends ActionBarActivity {
         String toastText;
 
         if (name.length() == 0) {
-            toastText = "No name?";
+            toastText = "No name entered";
         } else {
             toastText = "Hi, " + name + "!";
         }
