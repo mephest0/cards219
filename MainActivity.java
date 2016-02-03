@@ -122,7 +122,8 @@ public class MainActivity extends ActionBarActivity {
         super.onPause();
     }
 
-    public void dasdas(){
+
+    public void dasdsdasdasdasas(){
         System.out.println("lololololo");
     }
 }
