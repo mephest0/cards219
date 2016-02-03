@@ -78,7 +78,7 @@ public class MainActivity extends ActionBarActivity {
             toastText = "Hi, " + name + "!";
         }
 
-        Toast toast = Toast.makeText(getApplicationContext(), toastText, Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(), toastText, Toast.LENGTH_LONG);
         toast.show();
     }
 
