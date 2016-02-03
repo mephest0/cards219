@@ -120,10 +120,5 @@ public class MainActivity extends ActionBarActivity {
         unregisterReceiver(mReceiver);
 
         super.onPause();
-
-
-    }
-    public void dad(){
-        System.out.println("hei igjen");
     }
 }
