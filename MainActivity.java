@@ -70,6 +70,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void submitName(View view) {
         String name = ((EditText) findViewById(R.id.bt_name_input)).getText().toString();
+
         String toastText;
 
         if (name.length() == 0) {
